@@ -1,0 +1,68 @@
+*{
+   font-family: 'Times New Roman', Times, serif;
+}
+a
+ {
+   text-decoration:none;
+   color:black;
+ }
+ ::-webkit-scrollbar
+{
+   width:0;
+}
+ul li a
+{
+   color:white;
+   font-family: calibri;
+   font-size:14px;
+   font-weight: 600;
+}
+ul
+{
+   list-style-type:none;
+}
+.setbtn
+{
+   position:relative;
+   top:-60px;
+   left:67.5%; 
+}
+
+.collapse ul li a{
+    color:white;
+}
+.collapse ul li a:hover
+{
+    color:white;
+    background-color:rgb(237, 177, 25);
+}
+.bar ul li a
+{
+    color:aliceblue;
+    font-size:12px;
+}
+
+.bg-img1
+{
+   background:linear-gradient(rgba(255,255,255,.3),rgba(255,255,255,0.3)),url(../images/sign.jpg);
+   background-size:cover;
+   background-attachment: fixed;
+}
+.bg-img2
+{
+   background:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),url(../images/sign.jpg);
+  
+}
+.pro:hover
+{
+   background-color:aliceblue ;
+  
+}
+.card
+{
+   height:100%;
+}
+ul li.dropdown:hover>.dropdown-menu{
+   display: block;
+
+}
